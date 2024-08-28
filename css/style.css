@@ -162,8 +162,10 @@
   .landing .con .left {
     width: 100%;
   }
-
-  .landing .con .left .button p{
+  .landing .con .left .button {
+    padding: 8px 15px;
+  }
+  .landing .con .left .button p {
     font-size: 12px;
   }
 
