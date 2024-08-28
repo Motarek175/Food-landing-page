@@ -233,7 +233,8 @@
   border-radius: 40% 40% 0 0;
 }
 
-.menu .con .button {
+.menu .con button {
+  align-self: center;
   background-color: var(--main-color);
 }
 
@@ -280,11 +281,6 @@
 
   .menu .con .cards {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .menu .con .button {
-    margin: auto;
-    margin-top: 48px;
   }
 }
 /* end menu */
