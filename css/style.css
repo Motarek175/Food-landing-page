@@ -89,7 +89,7 @@
   color: var(--main-color);
 }
 
-.landing .con .left .button {
+.landing .con .left button {
   background-color: var(--main-color);
 }
 
@@ -161,12 +161,6 @@
 @media (max-width: 480px) {
   .landing .con .left {
     width: 100%;
-  }
-  .landing .con .left .button {
-    padding: 8px 15px;
-  }
-  .landing .con .left .button p {
-    font-size: 12px;
   }
 
   .landing .con .right .circle {
