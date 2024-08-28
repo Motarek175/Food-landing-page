@@ -160,14 +160,10 @@
 
 @media (max-width: 480px) {
   .landing .con .left .button {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
   }
-  .landing .con .left .button p {
-    font-weight: 600;
-    width: fit-content;
-  }
+
   .landing .con .right .circle {
     display: none;
   }
