@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Let'sFood</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- scroll to top -->
+  <div
+    class="up z-50 fixed bottom-3 right-0 cursor-pointer py-2 px-4 rounded-tl-3xl rounded-bl-3xl transition-all duration-300 ease-in-out origin-right scale-0">
+    <i class="fa-solid fa-arrow-up text-3xl text-center"></i>
+  </div>
+  <!-- header -->
+  <div class="header relative">
+    <div class="con py-3 px-10 flex justify-between items-center">
+      <div class="logo flex items-center">
+        <h1 class="font-bold text-2xl pr-2">Let'sFood</h1>
+        <img src="images/logo.png" alt="" />
+      </div>
+      <div class="links flex-1">
+        <ul class="flex justify-center gap-4">
+          <li class="">
+            <a href="#"
+              class="relative font-bold text-xl active transition-all duration-300 ease-in-out before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-3 before:h-0.5 before:transitin-all before:duration-300 before:ease-in-out hover:before:w-full">Home</a>
+          </li>
+          <li class="">
+            <a href="#"
+              class="relative font-bold text-xl transition-all duration-300 ease-in-out text-gray-400 hover:text-black before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:transitin-all before:duration-300 before:ease-in-out hover:before:w-full">Works</a>
+          </li>
+          <li class="">
+            <a href="#"
+              class="relative font-bold text-xl transition-all duration-300 ease-in-out text-gray-400 hover:text-black before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:transitin-all before:duration-300 before:ease-in-out hover:before:w-full">Menu</a>
+          </li>
+          <li class="">
+            <a href="#"
+              class="relative font-bold text-xl transition-all duration-300 ease-in-out text-gray-400 hover:text-black before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:transitin-all before:duration-300 before:ease-in-out hover:before:w-full">About</a>
+          </li>
+          <li class="">
+            <a href="#"
+              class="relative font-bold text-xl transition-all duration-300 ease-in-out text-gray-400 hover:text-black before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-0.5 before:transitin-all before:duration-300 before:ease-in-out hover:before:w-full">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="icons flex justify-between items-center">
+        <i class="fa-solid fa-bars bars text-xl px-2 hidden cursor-pointer"></i>
+        <i class="fa-solid fa-magnifying-glass text-xl px-2 cursor-pointer"></i>
+        <i class="fa-solid fa-cart-shopping text-xl pr-2 cursor-pointer"></i>
+        <div class="button flex items-center rounded-3xl py-1 px-2 cursor-pointer">
+          <i class="fa-solid fa-right-to-bracket text-xl pr-1"></i>
+          <p class="font-bold">Sign in</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- landing -->
+  <div class="landing relative">
+    <div class="con py-4 px-10 flex items-center justify-between">
+      <div class="left w-1/2">
+        <h1 class="text-5xl text-black font-bold">
+          Be The Fastest In Delivery Your <span>FOOD</span>
+        </h1>
+        <h4 class="w-3/5 mt-6 pl-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet
+        </h4>
+        <div class="button px-6 py-2 w-fit mt-5 rounded-3xl cursor-pointer">
+          <p class="font-bold">Get Started</p>
+        </div>
+      </div>
+      <div class="right relative">
+        <img src="images/landing.png" alt="" width="372px" />
+        <div class="circle">
+          <span
+            class="before:content-[''] before:top-1/2 before:-translate-y-1/2 before:absolute before:w-4 before:h-4 before:rounded-full"></span>
+          <span
+            class="before:content-[''] before:top-8 before:-left-10 before:absolute before:w-11 before:h-11 before:rounded-full"></span>
+          <span
+            class="before:content-[''] before:bottom-8 before:-left-12 before:absolute before:w-10 before:h-10 before:rounded-full"></span>
+          <span
+            class="before:content-[''] before:top-1/2 before:right-0 before:-translate-y-1/2 before:absolute before:w-12 before:h-12 before:rounded-full"></span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow absolute bottom-10">
+      <img src="images/arrow.png" alt="" width="100px" />
+      <img src="images/arrow.png" alt="" width="100px" />
+    </div>
+  </div>
+  <!-- how it works -->
+  <div class="works relative">
+    <div class="con p-10 pb-2 flex flex-col justify-center items-center">
+      <h4 class="font-bold">How it works</h4>
+      <h2 class="text-black text-3xl font-bold">What We Serve</h2>
+      <h6 class="w-1/2 text-center mt-3 px-2 font-bold text-gray-400">Product Quality Is Our Priority, And Always
+        Guarantees Halal And
+        Safety Until It Is
+        In Your
+        Hands.</h6>
+      <div class="cards flex mt-10 justify-between flex-wrap gap-20">
+        <div class="card flex items-center flex-col w-1/4">
+          <img src="images/works1.png" alt="">
+          <h2 class="font-bold my-2">Easy To Order</h2>
+          <h5 class="text-center">You only order through the app</h5>
+        </div>
+        <div class="card flex items-center flex-col w-1/4">
+          <img src="images/works2.png" alt="">
+          <h2 class="font-bold my-2">Easy To Order</h2>
+          <h5 class="text-center">You only order through the app</h5>
+        </div>
+        <div class="card flex items-center flex-col w-1/4">
+          <img src="images/works3.png" alt="">
+          <h2 class="font-bold my-2">Easy To Order</h2>
+          <h5 class="text-center">You only order through the app</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- menu -->
+  <div class="menu relative">
+    <div class="con p-10 pb-2 flex flex-col justify-center items-center">
+      <h4 class="font-bold">Our menu</h4>
+      <h2 class="text-black text-3xl font-bold">Our Popular Menu</h2>
+      <h6 class="w-4/12 text-center mt-3 font-bold text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit ut aliquam</h6>
+      <div class="cards grid grid-cols-4 mt-10 w-full gap-5">
+        <div class="card flex items-center flex-col rounded-2xl">
+          <img src="images/menu1.png" alt="">
+          <div class="text bg-white w-full text-center py-2.5 px-5">
+            <h2 class="font-bold ">Mie Ramen</h2>
+            <h5 class="text-center">lorem ipsum</h5>
+            <div class="pri flex items-center justify-between mt-3">
+              <p class="font-bold">$ 20.2</p>
+              <i class="fa-solid fa-heart text-orange-500 cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card flex items-center flex-col rounded-2xl">
+          <img src="images/menu2.png" alt="">
+          <div class="text bg-white w-full text-center py-2.5 px-5">
+            <h2 class="font-bold ">Salad Tahu</h2>
+            <h5 class="text-center">lorem ipsum</h5>
+            <div class="pri flex items-center justify-between mt-3">
+              <p class="font-bold">$ 20.2</p>
+              <i class="fa-solid fa-heart cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card flex items-center flex-col rounded-2xl">
+          <img src="images/menu3.png" alt="">
+          <div class="text bg-white w-full text-center py-2.5 px-5">
+            <h2 class="font-bold ">Roti Bakar</h2>
+            <h5 class="text-center">lorem ipsum</h5>
+            <div class="pri flex items-center justify-between mt-3">
+              <p class="font-bold">$ 20.2</p>
+              <i class="fa-solid fa-heart cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card flex items-center flex-col rounded-2xl">
+          <img src="images/menu4.png" alt="">
+          <div class="text bg-white w-full text-center py-2.5 px-5">
+            <h2 class="font-bold ">Spaghetti</h2>
+            <h5 class="text-center">lorem ipsum</h5>
+            <div class="pri flex items-center justify-between mt-3">
+              <p class="font-bold">$ 20.2</p>
+              <i class="fa-solid fa-heart cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button mt-12 px-6 py-2 rounded-3xl cursor-pointer">
+        <p class="font-bold">More Menu</p>
+      </div>
+    </div>
+  </div>
+  <!-- feedback -->
+  <div class="feeds">
+    <div class="con p-10 pb-2 flex justify-between gap-5">
+      <div class="leftimg w-2/5 flex flex-wrap gap-y-5 gap-x-4">
+        <img src="images/feedback1.png" alt="" class="w-full rounded-3xl">
+        <img src="images/feedback2.png" alt="" class="w-52 rounded-3xl">
+        <img src="images/feedback3.png" alt="" class="w-56 rounded-3xl">
+      </div>
+      <div class="right flex-1">
+        <h4 class="font-bold my-3 px-3">What they say</h4>
+        <h2 class="text-4xl font-bold w-10/12 leading-snug">What Our Customers Say About Us</h2>
+        <div class="feed flex gap-10 mt-5">
+          <div class="feed1 py-6 px-5 rounded-xl flex flex-col gap-5">
+            <div class="info flex gap-3 items-center">
+              <div class="left">
+                <img src="images/feed.jpg" alt="" class="w-20 h-20 rounded-full">
+              </div>
+              <div class="right">
+                <h1 class="text-2xl font-bold">Mohamed</h1>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="op">
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                venenatis.”</p>
+            </div>
+          </div>
+          <div class="feed1 py-6 px-5 rounded-xl flex flex-col gap-5">
+            <div class="info flex gap-3 items-center">
+              <div class="left">
+                <img src="images/feed.jpg" alt="" class="w-20 h-20 rounded-full">
+              </div>
+              <div class="right">
+                <h1 class="text-2xl font-bold">Mohamed</h1>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+                <i class="fa-solid fa-star text-orange-500"></i>
+              </div>
+            </div>
+            <div class="op">
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                venenatis.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer relative mt-10">
+    <div class="con p-10 pb-2 flex flex-wrap gap-y-10 justify-between">
+      <div class="row w-1/4 flex flex-col">
+        <div class="int flex gap-x-2 items-center">
+          <h1 class="text-2xl font-bold">Let'sFood</h1>
+          <img src="images/logo.png" alt="">
+        </div>
+        <p class="mt-2 mb-5">Jalan Semangka Raya, Telaga Murni,Cikarang Barat, Kab. Bekasi</p>
+        <div class="icons flex justify-between w-1/2">
+          <i
+            class="fa-brands fa-instagram  font-bold text-xl bg-white w-10 h-10 rounded-full text-center place-content-center transition-all duration-300 linear"></i>
+          <i
+            class="fa-brands fa-facebook-f font-bold text-xl bg-white w-10 h-10 rounded-full text-center place-content-center transition-all duration-300 linear"></i>
+          <i
+            class="fa-brands fa-twitter font-bold text-xl bg-white w-10 h-10 rounded-full text-center place-content-center transition-all duration-300 linear"></i>
+        </div>
+      </div>
+      <div class="row w-1/4 ">
+        <div class="head w-fit">
+          <h1 class="text-2xl font-bold w-fit">Company</h1>
+        </div>
+        <ul class="w-fit">
+          <li class="py-2 w-fit"><a href="#" class="font-bold">About Us</a></li>
+          <li class="py-2 w-fit"><a href="#" class="font-bold">Career</a></li>
+          <li class="py-2 w-fit"><a href="#" class="font-bold">How It Work</a></li>
+        </ul>
+      </div>
+      <div class="row w-1/4">
+        <div class="head  w-fit">
+          <h1 class="text-2xl font-bold  w-fit">Policy</h1>
+        </div>
+        <ul class=" w-fit">
+          <li class="py-2  w-fit"><a href="#" class="font-bold">FAQ</a></li>
+          <li class="py-2  w-fit"><a href="#" class="font-bold">Privacy</a></li>
+          <li class="py-2  w-fit"><a href="#" class="font-bold">Shipping</a></li>
+        </ul>
+      </div>
+      <div class="row w-1/4">
+        <div class="head  w-fit">
+          <h1 class="text-2xl font-bold  w-fit">Get In Touch</h1>
+        </div>
+        <ul>
+          <li class="py-2  w-fit"><a href="#" class="font-bold">+62 896 7311 2766</a></li>
+          <li class="py-2  w-fit"><a href="#" class="font-bold">food@example.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="circle">
+      <span
+        class="before:content-[''] before:bottom-0 before:left-[48%] before:absolute before:w-12 before:h-12 before:rounded-full"></span>
+      <span
+        class="before:content-[''] before:top-10 before:right-40 before:-translate-y-1/2 before:absolute before:w-20 before:h-20 before:rounded-full"></span>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div
+    class="copy w-full text-center pt-10 pb-3 relative before:content-[''] before:absolute before:top-5 before:left-10 before:h-px before:w-[calc(100%-80px)]">
+    <p class="text-xl font-bold">&copy; 2024 <span>Let'sFood</span>, ALL RIGHT RESERVED.</p>
+  </div>
+  <script src="js/scirpt.js"></script>
+</body>
+
+</html>
