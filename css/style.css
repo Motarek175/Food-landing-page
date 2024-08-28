@@ -163,6 +163,11 @@
     width: 100%;
   }
 
+  .landing .con .left .button p{
+    /* font-weight: normal; */
+    font-size: 12px;
+  }
+
   .landing .con .right .circle {
     display: none;
   }
