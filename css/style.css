@@ -383,6 +383,11 @@
   .footer .con .row {
     width: 100%;
   }
+  .footer .con .row ul,
+  .footer .con .row ul li,
+  .footer .con .row ul li a {
+    width: 100%;
+  }
 }
 
 /* end footer */
